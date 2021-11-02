@@ -7,5 +7,5 @@ add_elements_to_matrix <- function(A, x, i, j){
 }
 mat <- my_magic_matrix()
 add_elements_to_matrix(A = mat, x = 10, i = 2, j = 3)
-
+add_elements_to_matrix(A = mat, x = -2, i = 1:3, j = 2:3)
 
